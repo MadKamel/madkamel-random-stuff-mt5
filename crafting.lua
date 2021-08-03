@@ -77,3 +77,17 @@ minetest.register_craft({
 	{"madkamel_random_stuff:pink_unknown_metal"}
     }
 })
+
+minetest.register_craft({
+    type = "cooking",
+    output = "madkamel_random_stuff:blue_unknown_glass",
+    recipe = "madkamel_random_stuff:unknown_metal_ingot_blue",
+    cooktime = 4,
+})
+
+minetest.register_craft({
+    type = "cooking",
+    output = "madkamel_random_stuff:pink_unknown_glass",
+    recipe = "madkamel_random_stuff:unknown_metal_ingot_pink",
+    cooktime = 4,
+})

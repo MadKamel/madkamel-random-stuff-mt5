@@ -22,3 +22,27 @@ minetest.register_node("madkamel_random_stuff:blue_unknown_metal", {
 	tiles = {"unknown_metal_blue.png"},
 	groups = {cracky = 1}
 })
+
+minetest.register_node("madkamel_random_stuff:blue_unknown_glass", {
+	description = "Blue Strange Glass",
+	drawtype = "glasslike_framed_optional",
+	tiles = {"unknown_metal_blue_glass.png", "unknown_metal_blue_glass_detail.png"},
+	use_texture_alpha = "clip", -- only needed for stairs API
+	paramtype = "light",
+	paramtype2 = "glasslikeliquidlevel",
+	is_ground_content = false,
+	sunlight_propagates = true,
+	groups = {cracky = 3},
+})
+
+minetest.register_node("madkamel_random_stuff:pink_unknown_glass", {
+	description = "Pink Strange Glass",
+	drawtype = "glasslike_framed_optional",
+	tiles = {"unknown_metal_pink_glass.png", "unknown_metal_pink_glass_detail.png"},
+	use_texture_alpha = "clip", -- only needed for stairs API
+	paramtype = "light",
+	paramtype2 = "glasslikeliquidlevel",
+	is_ground_content = false,
+	sunlight_propagates = true,
+	groups = {cracky = 3},
+})
