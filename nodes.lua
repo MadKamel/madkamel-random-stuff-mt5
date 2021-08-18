@@ -26,7 +26,7 @@ minetest.register_node("madkamel_random_stuff:blue_unknown_metal", {
 minetest.register_node("madkamel_random_stuff:stone_with_blue_unknown_metal", {
 	description = "Blue Strange Metal Ore",
 	tiles = {"default_stone.png^unknown_metal_blue_mineral.png"},
-	groups = {cracky = 1},
+	groups = {cracky = 2},
 	drops = {"madkamel_random_stuff:unknown_metal_lump_blue"}
 })
 
@@ -34,7 +34,7 @@ minetest.register_node("madkamel_random_stuff:stone_with_blue_unknown_metal", {
 minetest.register_node("madkamel_random_stuff:stone_with_pink_unknown_metal", {
 	description = "Pink Strange Metal Ore",
 	tiles = {"default_stone.png^unknown_metal_pink_mineral.png"},
-	groups = {cracky = 1},
+	groups = {cracky = 2},
 	drops = {"madkamel_random_stuff:unknown_metal_lump_pink"}
 })
 
